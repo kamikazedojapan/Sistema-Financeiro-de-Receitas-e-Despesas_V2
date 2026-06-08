@@ -149,3 +149,36 @@ Despesas:
 ## Manipulação de Dados  
 - Pandas
 - NumPy
+
+# 📂 Estrutura do Projeto
+MyBudget/  
+├── app.py  
+├── index.py  
+├── globals.py  
+├── database.py  
+│── database/  
+│ └── financeiro.db  
+├── components/  
+│   ├── sidebar.py  
+│   ├── dashboards.py  
+│   ├── extratos.py  
+│   └── regra_orcamento.py  
+├── assets/  
+└── requirements.txt
+
+# ⚙️ Instalação  
+## Clonar repositório  
+git clone https://github.com/kamikazedojapan/Sistema-Financeiro-de-Receitas-e-Despesas_V2  
+
+## Criar ambiente virtual  
+python -m venv venv  
+## Ativar ambiente virtual  
+Windows:  
+venv\Scripts\activate    
+
+Linux:  
+source venv/bin/activate  
+## Instalar dependências  
+pip install -r requirements.txt  
+## Executar sistema  
+python index.py
